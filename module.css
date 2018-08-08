@@ -1,0 +1,62 @@
+﻿
+.X3AdvancedUrlManagement {
+    padding: 20px;
+}
+
+[ng-cloak] {
+    display: none;
+}
+
+ul.nav.nav-tabs, ol.nav.nav-tabs {
+    margin-left: 0;
+}
+
+.tab-pane {
+    padding: 10px;
+}
+
+.switch {
+    box-sizing: content-box !important;
+    width: 45px;
+    height: 21px;
+    border: 1px solid #959695;
+    background: #c8c8c8;
+    border-radius: 14px;
+    transition: background .1s linear;
+}
+
+    .switch small {
+        width: 21px;
+        height: 21px;
+        background-color: #fff;
+        border: 1px solid #959695;
+        box-sizing: border-box;
+        box-shadow: none;
+        border-radius: 13px;
+        transition: left .1s linear,background-color .1s linear,border-color .1s linear;
+    }
+
+    .switch.checked {
+        background-color: #21a3da;
+        border-color: #226f9b;
+    }
+
+        .switch.checked small {
+            left: 25px;
+        }
+
+a[data-toggle="collapse"] .glyphicon-plus {
+    display: none;
+}
+
+a[data-toggle="collapse"] .glyphicon-minus {
+    display: inline-block;
+}
+
+a[data-toggle="collapse"].collapsed .glyphicon-plus {
+    display: inline-block;
+}
+
+a[data-toggle="collapse"].collapsed .glyphicon-minus {
+    display: none;
+}

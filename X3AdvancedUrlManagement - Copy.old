@@ -1,0 +1,308 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="X3.AdvancedUrlManagement.PersonaBar.Host" type="PersonaBar" version="01.00.00">
+      <friendlyName>X3.AdvancedUrlManagement.PersonaBar.Host</friendlyName>
+      <description></description>
+      <iconFile>~/DesktopModules/admin/Dnn.PersonaBar/images/module_icon_32x32.png</iconFile>
+      <owner>
+        <name>Jay Mathis</name>
+        <organization>X3 Technology</organization>
+        <url>http://www.x3yechnology.com</url>
+        <email>jmathis@x3technology.com</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">09.00.00</dependency>
+        <dependency type="ManagedPackage" version="01.00.00">Dnn.PersonaBar.UI</dependency>
+      </dependencies>
+      <azureCompatible>true</azureCompatible>
+      <components>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules/admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <name>X3.AdvancedUrlManagement.dll</name>
+              <path>bin</path>
+            </assembly>
+          </assemblies>
+        </component>
+        <component type="PersonaBarMenu">
+          <menu>
+            <identifier>X3.AdvancedUrlManagement.PersonaBar.Host</identifier>
+            <moduleName>X3.AdvancedUrlManagement.PersonaBar.Host</moduleName>
+            <folderName>X3.AdvancedUrlManagement</folderName>
+            <resourceKey>Advanced Url Management</resourceKey>
+            <path>HostEdit</path>
+            <mobileSupport>true</mobileSupport>
+            <parent>Settings</parent>
+            <order>1</order>
+          </menu>
+        </component>
+      </components>
+    </package>
+    <package name="X3.AdvancedUrlManagement.PersonaBar.Portal" type="PersonaBar" version="01.00.00">
+      <friendlyName>X3.AdvancedUrlManagement.PersonaBar.Portal</friendlyName>
+      <description></description>
+      <iconFile>~/DesktopModules/admin/Dnn.PersonaBar/images/module_icon_32x32.png</iconFile>
+      <owner>
+        <name>Jay Mathis</name>
+        <organization>X3 Technology</organization>
+        <url>http://www.x3yechnology.com</url>
+        <email>jmathis@x3technology.com</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">09.00.00</dependency>
+        <dependency type="ManagedPackage" version="01.00.00">Dnn.PersonaBar.UI</dependency>
+      </dependencies>
+      <azureCompatible>true</azureCompatible>
+      <components>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules/admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <name>X3.AdvancedUrlManagement.dll</name>
+              <path>bin</path>
+            </assembly>
+          </assemblies>
+        </component>
+        <component type="PersonaBarMenu">
+          <menu>
+            <identifier>X3.AdvancedUrlManagement.PersonaBar.Portal</identifier>
+            <moduleName>X3.AdvancedUrlManagement.PersonaBar.Portal</moduleName>
+            <folderName>X3.AdvancedUrlManagement</folderName>
+            <resourceKey>Advanced Url Management</resourceKey>
+            <path>PortalEdit</path>
+            <mobileSupport>true</mobileSupport>
+            <parent>Manage</parent>
+            <order>1</order>
+          </menu>
+        </component>
+      </components>
+    </package>
+    <package name="X3.AdvancedUrlManagement" type="Module" version="0.0.0">
+      <friendlyName>X3.AdvancedUrlManagement</friendlyName>
+      <description />
+      <iconFile>/Images/icon_extensions_32px.png</iconFile>
+      <owner>
+        <name />
+        <organization />
+        <url />
+        <email />
+      </owner>
+      <license />
+      <releaseNotes />
+      <components>
+        <component type="Module">
+          <desktopModule>
+            <moduleName>X3.AdvancedUrlManagement</moduleName>
+            <foldername>Admin\Dnn.PersonaBar\Modules\X3.AdvancedUrlManagement</foldername>
+            <businessControllerClass />
+            <supportedFeatures />
+            <shareable>Supported</shareable>
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>X3.AdvancedUrlManagement.Host</friendlyName>
+                <definitionName>X3.AdvancedUrlManagement.Host</definitionName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/HostEdit.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>Anonymous</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <supportsPopUps>False</supportsPopUps>
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+              <moduleDefinition>
+                <friendlyName>X3.AdvancedUrlManagement.Portal</friendlyName>
+                <definitionName>X3.AdvancedUrlManagement.Portal</definitionName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/PortalEdit.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>Anonymous</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <supportsPopUps>False</supportsPopUps>
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <basePath>bin</basePath>
+            <assembly>
+              <name>X3.AdvancedUrlManagement.dll</name>
+            </assembly>
+          </assemblies>
+        </component>
+        <component type="File">
+          <files>
+            <basePath>DesktopModules\Admin\Dnn.PersonaBar\Modules\X3.AdvancedUrlManagement</basePath>
+            <file>
+              <path>app</path>
+              <name>app.js</name>
+            </file>
+            <file>
+              <path>app\controllers</path>
+              <name>host-edit.js</name>
+            </file>
+            <file>
+              <path>app\controllers</path>
+              <name>portal-edit.js</name>
+            </file>
+            <file>
+              <path>app\services</path>
+              <name>friendly-url.js</name>
+            </file>
+            <file>
+              <path>css</path>
+              <name>portaledit.css</name>
+            </file>
+            <file>
+              <path>css</path>
+              <name>hostedit.css</name>
+            </file>
+            <file>
+              <name>HostEdit.ascx</name>
+            </file>
+            <file>
+              <name>module.css</name>
+            </file>
+            <file>
+              <path>Plugins\angular-toastr</path>
+              <name>angular-toastr.min.css</name>
+            </file>
+            <file>
+              <path>Plugins\angular-toastr</path>
+              <name>angular-toastr.tpls.min.js</name>
+            </file>
+            <file>
+              <path>Plugins\angular-ui-switch</path>
+              <name>angular-ui-switch.css</name>
+            </file>
+            <file>
+              <path>Plugins\angular-ui-switch</path>
+              <name>angular-ui-switch.js</name>
+            </file>
+            <file>
+              <path>Plugins\angular-ui-switch</path>
+              <name>angular-ui-switch.min.css</name>
+            </file>
+            <file>
+              <path>Plugins\angular-ui-switch</path>
+              <name>angular-ui-switch.min.js</name>
+            </file>
+            <file>
+              <path>Plugins\angular-ui</path>
+              <name>ui-bootstrap-csp.css</name>
+            </file>
+            <file>
+              <path>Plugins\angular-ui</path>
+              <name>ui-bootstrap-tpls.js</name>
+            </file>
+            <file>
+              <path>Plugins\angular-ui</path>
+              <name>ui-bootstrap-tpls.min.js</name>
+            </file>
+            <file>
+              <path>Plugins\angular-ui</path>
+              <name>ui-bootstrap.js</name>
+            </file>
+            <file>
+              <path>Plugins\angular-ui</path>
+              <name>ui-bootstrap.min.js</name>
+            </file>
+            <file>
+              <name>PortalEdit.ascx</name>
+            </file>
+            <file>
+              <name>PortalEdit.html</name>
+            </file>
+            <file>
+              <name>HostEdit.html</name>
+            </file>
+            <file>
+              <name>License.txt</name>
+            </file>
+            <file>
+              <name>ReleaseNotes.txt</name>
+            </file>
+            <file>
+              <path>scripts</path>
+              <name>PortalEdit.js</name>
+            </file>
+            <file>
+              <name>X3AdvancedUrlManagement.dnn</name>
+            </file>
+            <file>
+              <path>scripts</path>
+              <name>HostEdit.js</name>
+            </file>
+            <file>
+              <path>App_LocalResources</path>
+              <name>HostEdit.resx</name>
+            </file>
+            <file>
+              <path>App_LocalResources</path>
+              <name>PortalEdit.resx</name>
+            </file>
+            <file>
+              <name>HostEdit.ascx.cs</name>
+            </file>
+            <file>
+              <name>HostEdit.ascx.designer.cs</name>
+            </file>
+            <file>
+              <name>PortalEdit.ascx.cs</name>
+            </file>
+            <file>
+              <name>PortalEdit.ascx.designer.cs</name>
+            </file>
+            <file>
+              <path>Properties</path>
+              <name>AssemblyInfo.cs</name>
+            </file>
+            <file>
+              <name>RouteMapper.cs</name>
+            </file>
+            <file>
+              <path>WebAPI\Controllers</path>
+              <name>FriendlyUrlController.cs</name>
+            </file>
+            <file>
+              <path>WebAPI\Models</path>
+              <name>FriendlyUrlSettings.cs</name>
+            </file>
+          </files>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
