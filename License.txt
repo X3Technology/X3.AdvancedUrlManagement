@@ -1,4 +1,6 @@
-﻿DotNetNuke® - http://www.dotnetnuke.com<br/>
-Copyright (c) 2002-2016<br/>
-by DotNetNuke Corporation<br/>
-All Rights Reserved<br/>
+﻿You are free to use this however you see fit.
+
+Copyright:
+Jay Mathis
+X3 Technology
+www.x3technology.com

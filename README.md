@@ -16,6 +16,7 @@ The install package will create a couple of things for you:
 1) A Host Settings UX will be created in the Persona Bar's 'Settings' section.
 2) A Portal Settings UX will be created in the Persona Bar's 'Manage' section.
 3) Also, create a new 'normal' module with the same UX that can be placed on any usual DNN page, if you wish.
+	Note: dropping this module on a page will actually put both the HOST and PORTAL settings UX on the page.  You can move one of them to another page if you wish for security reasons.
 
 The extension is written with Angular 1x as a kind of proof on concept on how to build a Persona Bar extension with Angular as opposed to React.
 
