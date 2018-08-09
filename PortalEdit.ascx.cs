@@ -19,22 +19,15 @@ namespace X3.AdvancedUrlManagement
                 ClientResourceManager.RegisterStyleSheet(this.Page, ResolveUrl("/DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/plugins/angular-toastr/angular-toastr.min.css"), 1);
                 ClientResourceManager.RegisterStyleSheet(this.Page, ResolveUrl("/DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/plugins/angular-ui-switch/angular-ui-switch.min.css"), 2);
                 
+
                 ClientResourceManager.RegisterScript(this.Page, ResolveUrl("https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"), 2);
-
                 ClientResourceManager.RegisterScript(this.Page, ResolveUrl("https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"), 2);
-                ClientResourceManager.RegisterScript(this.Page, ResolveUrl("https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-messages.min.js"), 3);
-                ClientResourceManager.RegisterScript(this.Page, ResolveUrl("https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-animate.min.js"), 3);
-                ClientResourceManager.RegisterScript(this.Page, ResolveUrl("https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-sanitize.min.js"), 4);
-                ClientResourceManager.RegisterScript(this.Page, ResolveUrl("https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-cookies.min.js"), 4);
-
+                
                 ClientResourceManager.RegisterScript(this.Page, ResolveUrl("/DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/plugins/angular-toastr/angular-toastr.tpls.min.js"), 5);
-                ClientResourceManager.RegisterScript(this.Page, ResolveUrl("/DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/plugins/angular-ui/ui-bootstrap-tpls.min.js"), 6);
                 ClientResourceManager.RegisterScript(this.Page, ResolveUrl("/DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/plugins/angular-ui-switch/angular-ui-switch.min.js"), 6);
                 
                 ClientResourceManager.RegisterScript(this.Page, ResolveUrl("/DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/app/app.js"), 7);
-
                 ClientResourceManager.RegisterScript(this.Page, ResolveUrl("/DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/app/services/friendly-url.js"), 15);
-
                 ClientResourceManager.RegisterScript(this.Page, ResolveUrl("/DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/app/controllers/portal-edit.js"), 20);
 
             }

@@ -16,12 +16,7 @@ define(
                     function () {
                         //console.log("angular loaded");
                         require([
-                            "https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-messages.min.js",
-                            "https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-animate.min.js",
-                            "https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-sanitize.min.js",
-                            "https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular-cookies.min.js",
-                            "/DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/plugins/angular-toastr/angular-toastr.tpls.min.js",
-                            "/DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/plugins/angular-ui/ui-bootstrap-tpls.min.js",
+                            "/DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/plugins/angular-toastr/angular-toastr.tpls.min.js",                            
                             "/DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/plugins/angular-ui-switch/angular-ui-switch.min.js",
                             "/DesktopModules/Admin/Dnn.PersonaBar/Modules/X3.AdvancedUrlManagement/app/app.js",
 

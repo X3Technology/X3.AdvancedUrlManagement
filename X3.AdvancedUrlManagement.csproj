@@ -125,11 +125,6 @@
     <Content Include="Plugins\angular-ui-switch\angular-ui-switch.js" />
     <Content Include="Plugins\angular-ui-switch\angular-ui-switch.min.css" />
     <Content Include="Plugins\angular-ui-switch\angular-ui-switch.min.js" />
-    <Content Include="Plugins\angular-ui\ui-bootstrap-csp.css" />
-    <Content Include="Plugins\angular-ui\ui-bootstrap-tpls.js" />
-    <Content Include="Plugins\angular-ui\ui-bootstrap-tpls.min.js" />
-    <Content Include="Plugins\angular-ui\ui-bootstrap.js" />
-    <Content Include="Plugins\angular-ui\ui-bootstrap.min.js" />
     <Content Include="PortalEdit.ascx" />
     <Content Include="PortalEdit.html" />
     <Content Include="HostEdit.html" />

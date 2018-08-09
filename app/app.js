@@ -1,4 +1,4 @@
-﻿var app = angular.module('X3AdvancedUrlManagement', ['ngAnimate', 'ui.bootstrap', 'toastr', 'uiSwitch'], function ($locationProvider) {
+﻿var app = angular.module('X3AdvancedUrlManagement', ['toastr', 'uiSwitch'], function ($locationProvider) {
 
     $locationProvider.html5Mode({
         enabled: true,

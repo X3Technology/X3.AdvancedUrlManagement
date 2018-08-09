@@ -218,26 +218,6 @@
               <name>angular-ui-switch.min.js</name>
             </file>
             <file>
-              <path>Plugins\angular-ui</path>
-              <name>ui-bootstrap-csp.css</name>
-            </file>
-            <file>
-              <path>Plugins\angular-ui</path>
-              <name>ui-bootstrap-tpls.js</name>
-            </file>
-            <file>
-              <path>Plugins\angular-ui</path>
-              <name>ui-bootstrap-tpls.min.js</name>
-            </file>
-            <file>
-              <path>Plugins\angular-ui</path>
-              <name>ui-bootstrap.js</name>
-            </file>
-            <file>
-              <path>Plugins\angular-ui</path>
-              <name>ui-bootstrap.min.js</name>
-            </file>
-            <file>
               <name>PortalEdit.ascx</name>
             </file>
             <file>
